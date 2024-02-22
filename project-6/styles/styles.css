@@ -3,10 +3,16 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
 form {
   background-color: white;
   border-radius: 8px;
-  width: 40%;
+  width: 60%;
   margin: 2rem auto auto auto;
   padding: 1rem;
 }
@@ -54,6 +60,7 @@ button:hover {
 
 main h2 {
   font-weight: bold;
+  font-size: 25px;
 }
 
 .verify-account-method,.check-box {

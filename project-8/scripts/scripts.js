@@ -4,11 +4,11 @@ const fisrtParagraph = document.body.children[2].children[1];
 const thirdParagraph = document.body.children[2].children[3];
 window.console.log(fisrtParagraph);
 window.console.log(thirdParagraph);
-function firsButtonFunction(event){
-    firstButton.previousElementSibling.remove();
+function firsButtonFunction(event) {
+  firstButton.previousElementSibling.remove();
 }
-function secondButtonFunction(event){
-    fisrtParagraph.classList.add('blue') ;
+function secondButtonFunction(event) {
+  fisrtParagraph.classList.add("blue");
 }
 firstButton.addEventListener("click", firsButtonFunction);
 secondButton.addEventListener("click", secondButtonFunction);
@@ -25,4 +25,3 @@ secondButton.addEventListener("click", secondButtonFunction);
 
 // 5) Solve (4) both by changing the "inline styles" as well as by adding CSS classes
 //    Note: You'll have to add those classes to the styles.css file first!
- 
